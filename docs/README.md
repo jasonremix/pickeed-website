@@ -1,13 +1,12 @@
 # Pickeed – Produkt- und Technikdokumentation
 
-Stand: 24.11.2026 · Phase 1 (Produktanalyse) abgeschlossen als **Entwurf zur Freigabe**.
+Stand: 24.11.2026 · **Pfad B (Neuaufbau)** und **Pink als Primärfarbe** entschieden; Grundgerüst umgesetzt.
 
-## Wichtigste Erkenntnis
+## Ausgangslage
 
-**Pickeed existiert bereits als Live-Plattform** (pickeed.com, iOS, Android, 6 Sprachen, Zahlungen,
-Creator-, Business-, Vereins- und Anbieterbereiche). Dieses Repository ist dagegen leer. Bevor
-entwickelt wird, muss entschieden werden, ob die bestehende Codebasis weiterentwickelt (empfohlen),
-Pickeed neu aufgebaut oder hier nur die öffentliche Website gebaut wird → [09, Frage A1](09-offene-entscheidungen.md).
+pickeed.com existiert bereits als Live-Plattform ([01](01-ist-analyse.md)). Entschieden ist ein
+Neuaufbau in diesem Repository ([09](09-offene-entscheidungen.md)). Inhalte und Logos der
+Live-Website werden nicht übernommen, solange die Rechte nicht bestätigt sind.
 
 ## Dokumente
 
@@ -21,15 +20,22 @@ Pickeed neu aufgebaut oder hier nur die öffentliche Website gebaut wird → [09
 | 06 | [Designkonzept](06-designkonzept.md) | Farben (geprüfte Kontraste), Typografie, Tokens, Komponenten, Navigation, Barrierefreiheit |
 | 07 | [Monetarisierung](07-monetarisierung.md) | Bewertung der Einnahmequellen, empfohlenes Modell, Zahlungsanbieter |
 | 08 | [Entwicklungsplan, Aufwand, Kosten](08-entwicklungsplan-aufwand-kosten.md) | 15 Phasen, Meilensteine, Aufwand pro Pfad, Kosten, Risiken |
-| 09 | [Offene Entscheidungen](09-offene-entscheidungen.md) | Rückfragen in Gruppen A–F mit Empfehlungen |
+| 09 | [Offene Entscheidungen](09-offene-entscheidungen.md) | Getroffene Entscheidungen, Annahmen, offene Rückfragen |
+| ADR | [Architekturentscheidungen](adr/) | 0001 Monorepo/Next.js · 0002 Portables Backend · 0003 Pink |
+| – | [Testprotokoll](testprotokoll.md) | Ergebnisse und nicht abgeschlossene Tests |
+| – | [Phasenberichte](berichte/) | Ergebnis und Review pro Phase |
 
 ## Phasenstatus
 
 | Phase | Status |
 |---|---|
-| 1 – Produktanalyse und Anforderungen | ✅ Entwurf zur Freigabe |
-| 2 – Produktstrategie und MVP | 🟡 Entwurf, wartet auf Antworten (Gruppe A, B) |
-| 3 – Technische Architektur | 🟡 Empfehlung, wartet auf Freigabe (Gruppe D) |
-| 4–15 | ⏳ Beginnen nach Freigabe |
+| 1 – Produktanalyse | ✅ abgeschlossen |
+| 2 – Produktstrategie, MVP | ✅ Pfad B entschieden; Detailfragen mit vorläufigen Annahmen |
+| 3 – Technische Architektur | ✅ umgesetzt ([Bericht](berichte/2026-11-24-phasen-3-bis-5.md)) |
+| 4 – Designsystem | 🟡 Grundlage umgesetzt, weitere Komponenten mit Phase 7/8 |
+| 5 – Datenbank, Backend | 🟡 Grundlage (Identität, Seiten, Graph, Audit) umgesetzt |
+| 11 – Mehrsprachigkeit | 🟡 Grundlage für 4 Sprachen umgesetzt |
+| 6 – Anmeldung, Benutzerverwaltung | ⏭ als Nächstes |
+| 7–10, 12–15 | ⏳ geplant |
 
-Es wurde noch **kein Anwendungscode** geschrieben und **kein kostenpflichtiger Dienst** gebucht.
+Kostenpflichtige Dienste: **keine gebucht**.
