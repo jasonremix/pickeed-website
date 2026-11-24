@@ -1,7 +1,30 @@
 # 09 – Offene Entscheidungen und Rückfragen
 
-> Stand: 24.11.2026 · Diese Punkte brauche ich von dir, bevor die Entwicklung beginnt.
-> Meine Empfehlung steht jeweils dabei. Gruppe A blockiert alles Weitere.
+> Stand: 24.11.2026 · Meine Empfehlung steht jeweils dabei.
+
+## Getroffene Entscheidungen
+
+| Datum | # | Entscheidung |
+|---|---|---|
+| 24.11.2026 | **A1** | **Pfad B – Neuaufbau** in diesem Repository |
+| 24.11.2026 | **C1** | **Pink als Primärfarbe** (Designkonzept [06](06-designkonzept.md)) |
+
+## Vorläufige Annahmen (bis zu deiner Antwort, jederzeit änderbar)
+
+Damit die Entwicklung nicht blockiert, arbeite ich mit folgenden Standardwerten. Sie sind so gewählt,
+dass eine spätere Änderung wenig Aufwand verursacht.
+
+| # | Annahme |
+|---|---|
+| A2 | Der Name «Pickeed» wird verwendet. Logo, Texte und Gestaltungselemente der Live-Website werden **nicht** übernommen: eigene Texte, provisorische Wortmarke, bis Logo-Dateien und Rechte bestätigt sind. |
+| A3 | Der Neuaufbau läuft unabhängig von der Live-Plattform; über eine Migration bestehender Nutzer wird später entschieden. |
+| B1–B4 | Planen als Kern + sozialer Feed · Follower-Zahlen nur für Seiten · Videos in V2 · Mindestalter 16 |
+| C3 | Hell- und Dunkelmodus ab MVP |
+| D1 | Architektur gemäss [04](04-technische-architektur.md), mit der Anpassung aus [ADR-0002](adr/0002-portables-backend.md) |
+| D2 | **Offen gehalten:** Die Anwendung nutzt nur Standardschnittstellen (PostgreSQL, S3, SMTP). Ob Supabase Zürich oder ein Schweizer Anbieter – es bleibt eine reine Betriebsentscheidung ohne Codeänderung. |
+| D4 | Zuerst Web-App/PWA, Store-Apps in V2 |
+| E1–E4 | Kein Zahlungssystem vor Freigabe; Versprechen «keine Werbung, kein Tracking, kein Datenverkauf» gilt |
+| D6 | Keine kostenpflichtigen Dienste: Entwicklung läuft lokal (Docker) und in GitHub Actions |
 
 ---
 
