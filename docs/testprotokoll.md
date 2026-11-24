@@ -18,6 +18,10 @@ Umgebung: Linux-Container, Node.js 22.23, PostgreSQL 16.15, Chromium (Playwright
 | End-to-End | Playwright: Desktop, Pixel 7, 375 px | ✅ 40 bestanden, 2 übersprungen |
 | Barrierefreiheit | axe-core (WCAG 2.0/2.1/2.2 A+AA), hell und dunkel | ✅ 0 Verstösse (nach Korrektur zweier Kontrastfehler im Dunkelmodus) |
 
+**GitHub Actions (CI-Lauf #2, Commit `2ae0da9`):** ✅ beide Jobs grün – «Lint, Typen, Tests, Build»
+(inkl. Datenbanktests gegen PostgreSQL 16.16 als Service) und «End-to-End (Playwright)».
+Lauf #1 war wegen einer nicht formatierten `README.md` rot und wurde behoben.
+
 **E2E-Abdeckung:** Startseite in 4 Sprachen (lang, Inhalt, hreflang, kein horizontales Scrollen),
 Spracherkennung über den Browser, Sprachwechsel, Dunkelmodus inkl. Speicherung, lokalisierte 404,
 Skip-Link, Sicherheitsheader, robots.txt.
@@ -30,6 +34,5 @@ Skip-Link, Sicherheitsheader, robots.txt.
 | Safari/WebKit und Firefox | In dieser Umgebung nur Chromium installiert | CI-Erweiterung vor Beta |
 | Echte Geräte (iPhone, Android) | Nicht verfügbar in der Cloud-Umgebung | Vor Beta, manuell |
 | `docker compose up` | Konfiguration validiert; Datenbank-Tests liefen gegen natives PostgreSQL 16 | Beim ersten lokalen Start |
-| GitHub-Actions-Lauf | Workflow geschrieben, erster Lauf nach dem Push | Nach Push prüfen |
 | Lighthouse (Performance/SEO) | Noch nicht eingerichtet | Phase 7 |
 | Übersetzungsqualität | Nur automatische Prüfungen; Muttersprachler-Review offen | Vor Beta |
