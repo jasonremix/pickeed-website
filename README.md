@@ -25,16 +25,16 @@ Interne Designsystem-Übersicht: http://localhost:3000/design (in Produktion nur
 
 ## Befehle
 
-| Befehl | Zweck |
-|---|---|
-| `pnpm dev` | Web-App im Entwicklungsmodus |
-| `pnpm build` | Produktions-Build aller Pakete |
-| `pnpm lint` / `pnpm typecheck` | ESLint / TypeScript |
-| `pnpm test` | Unit- und Integrationstests (DB-Tests brauchen `TEST_DATABASE_URL`) |
-| `pnpm test:e2e` | Playwright-Tests (Desktop + Mobil, axe-Barrierefreiheit) |
-| `pnpm db:generate` | Migration aus Schemaänderung erzeugen |
-| `pnpm db:migrate` | Ausstehende Migrationen ausführen |
-| `pnpm format` | Code formatieren (Prettier) |
+| Befehl                         | Zweck                                                               |
+| ------------------------------ | ------------------------------------------------------------------- |
+| `pnpm dev`                     | Web-App im Entwicklungsmodus                                        |
+| `pnpm build`                   | Produktions-Build aller Pakete                                      |
+| `pnpm lint` / `pnpm typecheck` | ESLint / TypeScript                                                 |
+| `pnpm test`                    | Unit- und Integrationstests (DB-Tests brauchen `TEST_DATABASE_URL`) |
+| `pnpm test:e2e`                | Playwright-Tests (Desktop + Mobil, axe-Barrierefreiheit)            |
+| `pnpm db:generate`             | Migration aus Schemaänderung erzeugen                               |
+| `pnpm db:migrate`              | Ausstehende Migrationen ausführen                                   |
+| `pnpm format`                  | Code formatieren (Prettier)                                         |
 
 ## Struktur
 
