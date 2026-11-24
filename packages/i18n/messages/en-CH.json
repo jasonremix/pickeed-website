@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "siteName": "Pickeed",
+    "title": "Pickeed – Social for real life",
+    "description": "Follow people, creators and your favourite places – and plan together what you’ll do next."
+  },
+  "Common": {
+    "skipToContent": "Skip to content",
+    "loading": "Loading …",
+    "verified": "Verified",
+    "inDevelopment": "In development"
+  },
+  "Header": {
+    "homeLink": "Pickeed – go to home page"
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  },
+  "ThemeSwitcher": {
+    "label": "Appearance",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "Home": {
+    "kicker": "Social for real life",
+    "title": "Scroll less. Do more together.",
+    "subtitle": "Follow people, creators and your favourite places – and plan together what you’ll do next.",
+    "statusBody": "The new platform is being built. This page shows the current state of development.",
+    "pillarsTitle": "What Pickeed brings together",
+    "pillars": {
+      "discover": {
+        "title": "Discover",
+        "body": "See what your people, creators and venues nearby are up to."
+      },
+      "plan": {
+        "title": "Plan together",
+        "body": "Find a date, pick a place, split costs – all in one place instead of ten chats."
+      },
+      "share": {
+        "title": "Experience and share",
+        "body": "After you meet up, photos and memories stay with your group."
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Pickeed"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "This page doesn’t exist or no longer exists.",
+    "back": "Go to home page"
+  },
+  "Design": {
+    "metaTitle": "Design system",
+    "title": "Design system",
+    "intro": "Internal reference of the Pickeed components. This page is not linked publicly and is not indexed.",
+    "sections": {
+      "colors": "Colours",
+      "typography": "Typography",
+      "buttons": "Buttons",
+      "forms": "Forms",
+      "cards": "Cards",
+      "people": "Avatars and badges",
+      "feedback": "Loading",
+      "formats": "Formats"
+    },
+    "colorNames": {
+      "primary": "Primary",
+      "surface": "Surface",
+      "text": "Text",
+      "success": "Success",
+      "warning": "Warning",
+      "danger": "Error",
+      "bloom": "Bloom gradient",
+      "action": "Action gradient"
+    },
+    "typeSample": "Do more together",
+    "bodySample": "Find a date, pick a place and split costs – without the back and forth.",
+    "buttons": {
+      "primary": "I’m in",
+      "secondary": "Maybe",
+      "tertiary": "View details",
+      "danger": "Delete plan",
+      "loading": "Saving",
+      "disabled": "Unavailable"
+    },
+    "form": {
+      "emailLabel": "Email",
+      "emailHint": "We’ll send you a 6-digit code.",
+      "emailPlaceholder": "name@example.ch",
+      "nameLabel": "Name",
+      "nameError": "Please enter your name."
+    },
+    "card": {
+      "title": "Pasta night at Lea’s",
+      "meta": "{count, plural, one {# person going} other {# people going}}"
+    },
+    "badges": {
+      "new": "New",
+      "confirmed": "Confirmed",
+      "draft": "Draft",
+      "full": "Sold out"
+    },
+    "people": {
+      "person1": "Lea Muster",
+      "person2": "Noah Keller",
+      "page": "Bergquell"
+    },
+    "formats": {
+      "money": "Contribution per person: {amount}",
+      "date": "Meeting point: {date}",
+      "number": "Views: {value}"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "siteName": "Pickeed",
+    "title": "Pickeed – Social für das echte Leben",
+    "description": "Folge Menschen, Creatorn und Lieblingsorten – und plane gemeinsam, was ihr als Nächstes erlebt."
+  },
+  "Common": {
+    "skipToContent": "Zum Inhalt springen",
+    "loading": "Wird geladen …",
+    "verified": "Verifiziert",
+    "inDevelopment": "In Entwicklung"
+  },
+  "Header": {
+    "homeLink": "Pickeed – zur Startseite"
+  },
+  "LanguageSwitcher": {
+    "label": "Sprache"
+  },
+  "ThemeSwitcher": {
+    "label": "Darstellung",
+    "system": "System",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "Home": {
+    "kicker": "Social für das echte Leben",
+    "title": "Weniger scrollen. Mehr zusammen erleben.",
+    "subtitle": "Folge Menschen, Creatorn und Lieblingsorten – und plane gemeinsam, was ihr als Nächstes erlebt.",
+    "statusBody": "Die neue Plattform entsteht gerade. Diese Seite zeigt den aktuellen Entwicklungsstand.",
+    "pillarsTitle": "Was Pickeed verbindet",
+    "pillars": {
+      "discover": {
+        "title": "Entdecken",
+        "body": "Sieh, was deine Leute, Creator und Locations in deiner Umgebung vorhaben."
+      },
+      "plan": {
+        "title": "Gemeinsam planen",
+        "body": "Termin finden, Ort abstimmen, Kosten teilen – alles an einem Ort statt in zehn Chats."
+      },
+      "share": {
+        "title": "Erleben und teilen",
+        "body": "Nach dem Treffen bleiben Fotos und Erinnerungen bei eurer Gruppe."
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Pickeed"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Diese Seite gibt es nicht oder nicht mehr.",
+    "back": "Zur Startseite"
+  },
+  "Design": {
+    "metaTitle": "Designsystem",
+    "title": "Designsystem",
+    "intro": "Interne Referenz der Pickeed-Komponenten. Diese Seite ist nicht öffentlich verlinkt und wird nicht indexiert.",
+    "sections": {
+      "colors": "Farben",
+      "typography": "Typografie",
+      "buttons": "Buttons",
+      "forms": "Formulare",
+      "cards": "Karten",
+      "people": "Avatare und Badges",
+      "feedback": "Laden",
+      "formats": "Formate"
+    },
+    "colorNames": {
+      "primary": "Primär",
+      "surface": "Fläche",
+      "text": "Text",
+      "success": "Erfolg",
+      "warning": "Warnung",
+      "danger": "Fehler",
+      "bloom": "Verlauf Bloom",
+      "action": "Verlauf Aktion"
+    },
+    "typeSample": "Gemeinsam mehr erleben",
+    "bodySample": "Termin finden, Ort abstimmen und Kosten teilen – ohne Hin und Her.",
+    "buttons": {
+      "primary": "Bin dabei",
+      "secondary": "Vielleicht",
+      "tertiary": "Details ansehen",
+      "danger": "Plan löschen",
+      "loading": "Wird gespeichert",
+      "disabled": "Nicht verfügbar"
+    },
+    "form": {
+      "emailLabel": "E-Mail",
+      "emailHint": "Wir schicken dir einen 6-stelligen Code.",
+      "emailPlaceholder": "name@beispiel.ch",
+      "nameLabel": "Name",
+      "nameError": "Bitte gib deinen Namen ein."
+    },
+    "card": {
+      "title": "Pasta-Abend bei Lea",
+      "meta": "{count, plural, one {# Zusage} other {# Zusagen}}"
+    },
+    "badges": {
+      "new": "Neu",
+      "confirmed": "Bestätigt",
+      "draft": "Entwurf",
+      "full": "Ausgebucht"
+    },
+    "people": {
+      "person1": "Lea Muster",
+      "person2": "Noah Keller",
+      "page": "Bergquell"
+    },
+    "formats": {
+      "money": "Beitrag pro Person: {amount}",
+      "date": "Treffpunkt: {date}",
+      "number": "Aufrufe: {value}"
+    }
+  }
+}

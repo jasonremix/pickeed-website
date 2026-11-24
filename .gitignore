@@ -1,0 +1,23 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+coverage/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Tests
+playwright-report/
+test-results/
+blob-report/
+
+# Umgebungsvariablen (nur .env.example wird versioniert)
+.env
+.env.*
+!.env.example
+
+# System
+.DS_Store
+*.log

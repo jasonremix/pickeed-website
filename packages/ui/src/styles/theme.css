@@ -1,0 +1,119 @@
+/*
+ * Tailwind-CSS-4-Theme auf Basis der Pickeed-Tokens.
+ * Die Standardpalette von Tailwind wird entfernt: Es gibt nur Pickeed-Farben.
+ * Verwendung in einer App: @import "tailwindcss"; @import "@pickeed/ui/styles/tokens.css"; @import "@pickeed/ui/styles/theme.css";
+ */
+
+@theme inline {
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-white: #ffffff;
+
+  --color-pink-50: var(--pk-pink-50);
+  --color-pink-100: var(--pk-pink-100);
+  --color-pink-200: var(--pk-pink-200);
+  --color-pink-400: var(--pk-pink-400);
+  --color-pink-500: var(--pk-pink-500);
+  --color-pink-600: var(--pk-pink-600);
+  --color-pink-700: var(--pk-pink-700);
+
+  --color-bg: var(--pk-bg);
+  --color-surface: var(--pk-surface);
+  --color-surface-raised: var(--pk-surface-raised);
+  --color-line: var(--pk-line);
+  --color-text-1: var(--pk-text-1);
+  --color-text-2: var(--pk-text-2);
+  --color-text-3: var(--pk-text-3);
+
+  --color-primary: var(--pk-primary);
+  --color-primary-hover: var(--pk-primary-hover);
+  --color-primary-soft: var(--pk-primary-soft);
+  --color-primary-soft-line: var(--pk-primary-soft-line);
+  --color-on-primary: var(--pk-on-primary);
+  --color-link: var(--pk-link);
+  --color-focus: var(--pk-focus);
+  --color-verified: var(--pk-verified);
+
+  --color-success: var(--pk-success);
+  --color-warning: var(--pk-warning);
+  --color-danger: var(--pk-danger);
+  --color-danger-text: var(--pk-danger-text);
+  --color-info: var(--pk-info);
+  --color-on-semantic: var(--pk-on-semantic);
+
+  --font-sans: var(--pk-font-sans);
+
+  --radius-sm: var(--pk-radius-sm);
+  --radius-md: var(--pk-radius-md);
+  --radius-lg: var(--pk-radius-lg);
+  --radius-xl: var(--pk-radius-xl);
+
+  --shadow-1: var(--pk-shadow-1);
+  --shadow-2: var(--pk-shadow-2);
+  --shadow-pop: var(--pk-shadow-pop);
+
+  --ease-out: var(--pk-ease-out);
+  --ease-sheet: var(--pk-ease-sheet);
+
+  /* Typografie-Skala (docs/06, Abschnitt 3) */
+  --text-display: var(--pk-text-display);
+  --text-display--line-height: var(--pk-text-display-lh);
+  --text-display--letter-spacing: -0.02em;
+  --text-display--font-weight: 800;
+  --text-h1: 2.125rem;
+  --text-h1--line-height: 2.5rem;
+  --text-h1--font-weight: 700;
+  --text-h2: 1.75rem;
+  --text-h2--line-height: 2.125rem;
+  --text-h2--font-weight: 700;
+  --text-h3: 1.3125rem;
+  --text-h3--line-height: 1.75rem;
+  --text-h3--font-weight: 650;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.25rem;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1rem;
+  --text-caption--font-weight: 500;
+}
+
+@utility bg-gradient-bloom {
+  background-image: var(--pk-gradient-bloom);
+}
+@utility bg-gradient-action {
+  background-image: var(--pk-gradient-action);
+}
+@utility bg-gradient-blush {
+  background-image: var(--pk-gradient-blush);
+}
+@utility bg-gradient-glow {
+  background-image: var(--pk-gradient-glow);
+}
+@utility glass {
+  background-color: var(--pk-glass-bg);
+  backdrop-filter: var(--pk-glass-blur);
+  -webkit-backdrop-filter: var(--pk-glass-blur);
+}
+@utility duration-fast {
+  transition-duration: var(--pk-motion-fast);
+}
+@utility duration-base {
+  transition-duration: var(--pk-motion-base);
+}
+@utility duration-slow {
+  transition-duration: var(--pk-motion-slow);
+}
+@utility focus-ring {
+  outline: 2px solid var(--pk-focus);
+  outline-offset: 2px;
+}
+@utility text-gradient-bloom {
+  background-image: var(--pk-gradient-bloom);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
