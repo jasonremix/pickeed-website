@@ -1,0 +1,23 @@
+# Lokale Dienste für die Entwicklung. Start: docker compose up -d
+# Weitere Dienste (S3-Speicher, Mail-Testserver) folgen mit den Phasen, die sie brauchen.
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: pickeed
+      POSTGRES_PASSWORD: pickeed
+      POSTGRES_DB: pickeed
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./packages/db/docker/init-test-db.sql:/docker-entrypoint-initdb.d/10-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pickeed -d pickeed"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:
