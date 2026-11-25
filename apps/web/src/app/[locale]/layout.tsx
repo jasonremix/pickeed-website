@@ -7,6 +7,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { ReactNode } from "react";
 import { SiteFooter } from "@/components/SiteFooter";
+import { RevealObserver } from "@/components/motion/RevealObserver";
 import { SiteHeader } from "@/components/SiteHeader";
 import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/lib/site";
@@ -47,6 +48,10 @@ export async function generateMetadata({
       description: t("description"),
     },
     formatDetection: { telephone: false },
+    icons: {
+      icon: [{ url: "/images/brand/icon-192.png", sizes: "192x192", type: "image/png" }],
+      apple: "/images/brand/apple-touch-icon.png",
+    },
   };
 }
 
@@ -80,6 +85,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <SiteFooter />
+          <RevealObserver />
         </NextIntlClientProvider>
       </body>
     </html>

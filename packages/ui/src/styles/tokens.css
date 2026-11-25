@@ -73,6 +73,16 @@
   --pk-motion-base: 200ms;
   --pk-motion-slow: 320ms;
 
+  /* Logo (Wortmarke ist schwarz; im Dunkelmodus invertiert) */
+  --pk-logo-filter: none;
+
+  /* Handy-Rahmen für App-Screenshots und Dunkelflächen der Website */
+  --pk-phone: #111114;
+  --pk-phone-ink: #111114;
+  --pk-ink-section: #111114;
+  --pk-on-ink: #ffffff;
+  --pk-on-ink-2: #c9c9d1;
+
   /* Glas-Navigation */
   --pk-glass-bg: rgba(255, 255, 255, 0.72);
   --pk-glass-blur: blur(24px) saturate(1.6);
@@ -103,6 +113,9 @@
   --pk-shadow-2: 0 4px 16px rgba(0, 0, 0, 0.5);
   --pk-shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.6);
   --pk-glass-bg: rgba(35, 35, 41, 0.72);
+  --pk-logo-filter: invert(1);
+  --pk-phone: #2a2a31;
+  --pk-ink-section: #18181d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -130,6 +143,9 @@
     --pk-shadow-2: 0 4px 16px rgba(0, 0, 0, 0.5);
     --pk-shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.6);
     --pk-glass-bg: rgba(35, 35, 41, 0.72);
+    --pk-logo-filter: invert(1);
+    --pk-phone: #2a2a31;
+    --pk-ink-section: #18181d;
   }
 }
 

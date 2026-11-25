@@ -30,7 +30,22 @@ describe("hreflang-Alternativen", () => {
       "fr-CH": "http://localhost:3000/fr",
       "it-CH": "http://localhost:3000/it",
       "en-CH": "http://localhost:3000/en",
+      "es-419": "http://localhost:3000/es",
+      "pt-BR": "http://localhost:3000/pt",
       "x-default": "http://localhost:3000/",
     });
+  });
+});
+
+describe("hreflang mit übersetzten Adressen", () => {
+  it("verwendet je Sprache den passenden Pfad", () => {
+    const paths: Record<string, string> = {
+      "de-CH": "/geburtstag-planen",
+      "en-CH": "/plan-a-birthday-party",
+    };
+    const a = alternatesFor("en-CH", (l) => paths[l] ?? "/geburtstag-planen");
+    expect(a.canonical).toBe("http://localhost:3000/en/plan-a-birthday-party");
+    expect(a.languages["de-CH"]).toBe("http://localhost:3000/geburtstag-planen");
+    expect(a.languages["x-default"]).toBe("http://localhost:3000/geburtstag-planen");
   });
 });

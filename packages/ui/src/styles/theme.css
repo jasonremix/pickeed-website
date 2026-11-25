@@ -41,6 +41,9 @@
   --color-danger-text: var(--pk-danger-text);
   --color-info: var(--pk-info);
   --color-on-semantic: var(--pk-on-semantic);
+  --color-ink-section: var(--pk-ink-section);
+  --color-on-ink: var(--pk-on-ink);
+  --color-on-ink-2: var(--pk-on-ink-2);
 
   --font-sans: var(--pk-font-sans);
 

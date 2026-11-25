@@ -17,6 +17,6 @@ export function resolveTheme(preference: ThemePreference, systemPrefersDark: boo
  * Läuft vor dem ersten Zeichnen, damit beim Laden nichts aufblitzt.
  * «system» setzt kein Attribut – dann greift prefers-color-scheme in tokens.css.
  */
-export const themeInitScript = `(function(){try{var p=localStorage.getItem(${JSON.stringify(
+export const themeInitScript = `(function(){var d=document.documentElement;d.classList.add("js");try{var p=localStorage.getItem(${JSON.stringify(
   THEME_STORAGE_KEY,
-)});if(p==="light"||p==="dark"){document.documentElement.setAttribute("data-theme",p)}}catch(e){}})();`;
+)});if(p==="light"||p==="dark"){d.setAttribute("data-theme",p)}}catch(e){}})();`;
