@@ -2,8 +2,9 @@
 
 Schweizer Social-Media- und Planungsplattform. Produkt- und Technikdokumentation: [`docs/`](docs/README.md).
 
-> **Stand:** Grundgerüst (Phasen 3–5) – Monorepo, Designsystem, Mehrsprachigkeit, Datenbank-Grundlage.
-> Anmeldung und Social-Funktionen folgen ab Phase 6. Die Website zeigt bewusst den Entwicklungsstand.
+> **Stand:** Website mit allen Inhalten von pickeed.com in 6 Sprachen (1'661 Seiten), Pink-Designsystem,
+> Datenbank-Grundlage. Anmeldung und Social-Funktionen folgen ab Phase 6; bis dahin führen Aufrufe zur
+> bestehenden App (`NEXT_PUBLIC_APP_URL`).
 
 ## Voraussetzungen
 
@@ -39,9 +40,10 @@ Interne Designsystem-Übersicht: http://localhost:3000/design (in Produktion nur
 ## Struktur
 
 ```
-apps/web          Next.js 16: Website + Web-App (Deutsch, Französisch, Italienisch, Englisch)
+apps/web          Next.js 16: Website (6 Sprachen); Inhalte in apps/web/content, Bilder in public/images
 packages/ui       Designsystem: Pink-Tokens (Hell/Dunkel), Komponenten
 packages/i18n     Übersetzungskataloge, Sprach- und Formatierungs-Konfiguration
 packages/db       PostgreSQL-Schema (Drizzle), Migrationen, Integrationstests
+tools/            Inhalts-Import von pickeed.com
 docs/             Konzept, Architekturentscheidungen (adr/), Phasenberichte
 ```

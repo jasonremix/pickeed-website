@@ -1,5 +1,21 @@
 # Testprotokoll
 
+## Lauf vom 25.11.2026 (Website mit allen Inhalten, Phase 7)
+
+| Bereich | Ergebnis |
+|---|---|
+| Lint, Typen, Formatierung | ✅ |
+| Unit-Tests | ✅ Designsystem 39/39, Sprachen 24/24 (6 Sprachen, gleiche Schlüssel/Platzhalter), Web 5/5 |
+| Datenbank | ✅ 25/25 inkl. neuer Migration (6 Sprachen) |
+| Build | ✅ 1'661 statische Seiten |
+| End-to-End (Desktop, Pixel 7, 375 px) | ✅ 93 bestanden, 3 bewusst übersprungen (Tastaturtest mobil, Handy-Menü auf Desktop) |
+| Barrierefreiheit (axe, WCAG 2.2 AA, hell und dunkel) | ✅ Startseite, Preise, Travel Guide, Hilfe, Datenschutz, Designsystem – 0 Verstösse. Gefunden und behoben: zu schwacher Kontrast in der Demo, nicht fokussierbarer Scrollbereich (mobil) |
+| Links | ✅ Alle internen Links der Übersichtsseiten liefern 200 (über 150 geprüft); Import-Prüfung über alle 28'236 Links |
+
+**E2E-Abdeckung neu:** Startseite in 6 Sprachen (offizieller Titel, hreflang), alle Abschnitte vorhanden, App- und
+Store-Links, Sprachwechsel inkl. übersetzter Adressen, 17 Unterseiten aus allen Bereichen, Häufige Fragen, Demo-Steuerung,
+Handy-Menü, Dunkelmodus, lokalisierte 404, Sitemap mit über 1'600 Adressen.
+
 ## Lauf vom 24.11.2026 (Phasen 3–5)
 
 Umgebung: Linux-Container, Node.js 22.23, PostgreSQL 16.15, Chromium (Playwright 1.63).

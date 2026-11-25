@@ -34,8 +34,9 @@ Live-Website werden nicht übernommen, solange die Rechte nicht bestätigt sind.
 | 3 – Technische Architektur | ✅ umgesetzt ([Bericht](berichte/2026-11-24-phasen-3-bis-5.md)) |
 | 4 – Designsystem | 🟡 Grundlage umgesetzt, weitere Komponenten mit Phase 7/8 |
 | 5 – Datenbank, Backend | 🟡 Grundlage (Identität, Seiten, Graph, Audit) umgesetzt |
-| 11 – Mehrsprachigkeit | 🟡 Grundlage für 4 Sprachen umgesetzt |
+| 7 – Website und Navigation | ✅ alle Inhalte von pickeed.com in 6 Sprachen, mit Animationen ([Bericht](berichte/2026-11-25-website.md)) |
+| 11 – Mehrsprachigkeit | ✅ 6 Sprachen inkl. übersetzter Adressen |
 | 6 – Anmeldung, Benutzerverwaltung | ⏭ als Nächstes |
-| 7–10, 12–15 | ⏳ geplant |
+| 8–10, 12–15 | ⏳ geplant |
 
 Kostenpflichtige Dienste: **keine gebucht**.
