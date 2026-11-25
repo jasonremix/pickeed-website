@@ -54,7 +54,7 @@ export const profiles = pgTable(
   (t) => [
     check("profiles_display_name_length", sql`char_length(btrim(${t.displayName})) between 1 and 80`),
     check("profiles_bio_length", sql`${t.bio} is null or char_length(${t.bio}) <= 500`),
-    check("profiles_locale", sql`${t.locale} in ('de-CH', 'fr-CH', 'it-CH', 'en-CH')`),
+    check("profiles_locale", sql`${t.locale} in ('de-CH', 'fr-CH', 'it-CH', 'en-CH', 'es-419', 'pt-BR')`),
   ],
 );
 

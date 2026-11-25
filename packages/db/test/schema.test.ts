@@ -38,7 +38,7 @@ describe.skipIf(!hasDatabase)("Datenbankschema (PostgreSQL)", () => {
       await expect(runMigrations(testDatabaseUrl!)).resolves.toBeUndefined();
       const [{ count } = { count: -1 }] = await sql<{ count: number }[]>`
         SELECT count(*)::int AS count FROM drizzle.__drizzle_migrations`;
-      expect(count).toBe(3);
+      expect(count).toBe(4);
     });
 
     it("erzeugen UUIDs der Version 7 in zeitlicher Reihenfolge", async () => {
