@@ -8,6 +8,7 @@
 |---|---|---|
 | 24.11.2026 | **A1** | **Pfad B – Neuaufbau** in diesem Repository |
 | 24.11.2026 | **C1** | **Pink als Primärfarbe** (Designkonzept [06](06-designkonzept.md)) |
+| 25.11.2026 | **A2** | **Inhalte der offiziellen Website pickeed.com werden übernommen** (Texte in allen Sprachen, Fotos, App-Screenshots, Logo, Store-Badges) – bestätigt durch den Product Owner («Wir haben alles von der offiziellen Webseite»). Die Lizenzen der Fotos müssen bei Pickeed dokumentiert sein. |
 
 ## Vorläufige Annahmen (bis zu deiner Antwort, jederzeit änderbar)
 
@@ -16,7 +17,6 @@ dass eine spätere Änderung wenig Aufwand verursacht.
 
 | # | Annahme |
 |---|---|
-| A2 | Der Name «Pickeed» wird verwendet. Logo, Texte und Gestaltungselemente der Live-Website werden **nicht** übernommen: eigene Texte, provisorische Wortmarke, bis Logo-Dateien und Rechte bestätigt sind. |
 | A3 | Der Neuaufbau läuft unabhängig von der Live-Plattform; über eine Migration bestehender Nutzer wird später entschieden. |
 | B1–B4 | Planen als Kern + sozialer Feed · Follower-Zahlen nur für Seiten · Videos in V2 · Mindestalter 16 |
 | C3 | Hell- und Dunkelmodus ab MVP |
@@ -33,7 +33,7 @@ dass eine spätere Änderung wenig Aufwand verursacht.
 | # | Frage | Empfehlung |
 |---|---|---|
 | **A1** | pickeed.com ist eine laufende Plattform mit Web-App, iOS-/Android-Apps und 6 Sprachen; dieses Repository ist leer. **Welcher Pfad gilt?** A = bestehenden Code weiterentwickeln · B = Neuaufbau in diesem Repo · C = dieses Repo wird nur die öffentliche Website | **A**, falls der Code verfügbar ist. Dann bitte das Repository dieser Session hinzufügen. B nur mit klarem Grund (welcher?). |
-| **A2** | Das Impressum nennt «Svizzipet by Thamilchelvan» (Einzelunternehmen, Einsiedeln) als Betreiberin; Name, Logo, Texte und Gestaltung sind als urheberrechtlich geschützt ausgewiesen. **Was ist deine Rolle, und darf ich Marke, Logo, Texte und Designelemente verwenden?** | Kurze Bestätigung genügt; ohne sie arbeite ich mit neutralen Platzhaltern für Logo und Texte. |
+| ~~A2~~ | ✅ Beantwortet am 25.11.2026 (siehe «Getroffene Entscheidungen») | – |
 | A3 | Falls Pfad B: Soll der Neuaufbau die Live-Plattform später **ersetzen** (inkl. Datenmigration bestehender Nutzer) oder als separates Produkt laufen? | Ersetzen nur mit Migrationsplan; separates Produkt unter gleicher Marke vermeiden. |
 
 ## B. Produkt und Positionierung

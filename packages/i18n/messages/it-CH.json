@@ -1,14 +1,18 @@
 {
   "Meta": {
     "siteName": "Pickeed",
-    "title": "Pickeed – Il social per la vita reale",
-    "description": "Segui persone, creator e i tuoi luoghi preferiti – e pianificate insieme cosa vivrete dopo."
+    "title": "Pickeed – Guarda cosa succede e vacci con gli amici.",
+    "description": "Segui amici, creator e locali della tua città. E quando qualcosa ti ispira, con un tocco diventa un piano."
   },
   "Common": {
     "skipToContent": "Vai al contenuto",
     "loading": "Caricamento …",
     "verified": "Verificato",
-    "inDevelopment": "In sviluppo"
+    "inDevelopment": "In sviluppo",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "more": "Scopri di più",
+    "contactForm": "Al modulo di contatto"
   },
   "Header": {
     "homeLink": "Pickeed – alla pagina iniziale"
@@ -23,28 +27,237 @@
     "dark": "Scuro"
   },
   "Home": {
-    "kicker": "Il social per la vita reale",
-    "title": "Meno scroll. Più momenti insieme.",
-    "subtitle": "Segui persone, creator e i tuoi luoghi preferiti – e pianificate insieme cosa vivrete dopo.",
-    "statusBody": "La nuova piattaforma è in costruzione. Questa pagina mostra lo stato attuale dello sviluppo.",
-    "pillarsTitle": "Cosa unisce Pickeed",
-    "pillars": {
-      "discover": {
-        "title": "Scoprire",
-        "body": "Guarda cosa hanno in programma i tuoi amici, i creator e i locali vicino a te."
+    "hero": {
+      "h1a": "Guarda cosa succede e vacci ",
+      "h1b": "con gli amici",
+      "h1c": ".",
+      "lead": "Segui amici, creator e locali della tua città. E quando qualcosa ti ispira, con un tocco diventa un piano.",
+      "cta": "Crea un piano gratis",
+      "friends": "I tuoi amici entrano con un link. Senza account.",
+      "phonesLabel": "Pickeed sul telefono: i Top Picks della settimana, la home con Circle e un evento con «Ci sono».",
+      "claim": "Il social che ti fa uscire con gli amici."
+    },
+    "steps": {
+      "s1": {
+        "title": "Segui e scopri",
+        "text": "Foto, stati ed eventi di amici, creator e aziende – vedi cosa succede."
       },
-      "plan": {
-        "title": "Pianificare insieme",
-        "body": "Trovare una data, scegliere il posto, dividere le spese – tutto in un unico posto invece che in dieci chat."
+      "s2": {
+        "title": "Guarda chi ci va",
+        "text": "«4 amici ci vanno» – con un tocco ci sei anche tu."
       },
-      "share": {
-        "title": "Vivere e condividere",
-        "body": "Dopo l’incontro, foto e ricordi restano al vostro gruppo."
+      "s3": {
+        "title": "Diventa un piano",
+        "text": "Data, luogo, chi porta cosa: Pickeed trasforma «Chi viene?» nel piano – confermi con un tocco."
       }
+    },
+    "topPicks": {
+      "title": "La top 10 della tua città",
+      "text": "I Top Picks mostrano cosa è piaciuto agli ospiti: valutati da ospiti che c’erano. Nuovi ogni lunedì – e nessuno può comprarsi un posto.",
+      "sub": "La top 10 della tua città – nuova ogni settimana, secondo le valutazioni degli ospiti."
+    },
+    "plan": {
+      "title": "Un piano in una frase",
+      "text": "Scrivi semplicemente cosa vuoi fare. Pickeed ne fa un piano con ora, luogo e costi – tu confermi con un tocco."
+    },
+    "demo": {
+      "title": "Come funziona",
+      "intro": "Una serata pasta tra quattro amici – dal primo «Quando?» al tavolo prenotato.",
+      "label": "Esempio in tre passi",
+      "next": "Passo successivo",
+      "prev": "Passo precedente",
+      "pause": "Metti in pausa",
+      "play": "Avvia la demo",
+      "steps": {
+        "time": {
+          "title": "Trovare una data",
+          "text": "Pickeed propone una data. Tutti dicono «Va bene» o «Non va bene» – se non va, arriva subito la prossima.",
+          "tag": "Time Pick"
+        },
+        "idea": {
+          "title": "Decidere insieme",
+          "text": "Ognuno propone, tutti votano. Il gruppo vede subito quale ristorante è in testa.",
+          "tag": "Idea Pick"
+        },
+        "ready": {
+          "title": "Il piano è deciso",
+          "text": "Quando, dove e chi viene – in un unico posto. C'è anche chi prenota il tavolo."
+        }
+      },
+      "plan": "Serata pasta",
+      "meta": "Zurigo · 4 persone",
+      "ideasTitle": "Votare le idee",
+      "earlier": "Sabato, ore 18",
+      "earlierVotes": "2 su 4: va bene",
+      "earlierNote": "Non va bene a tutti – prossima proposta",
+      "ask": "Venerdì alle 19 ti va bene?",
+      "yes": "Va bene",
+      "no": "Non va bene",
+      "votes": "4 su 4: va bene",
+      "vote": "Dove andiamo?",
+      "ideas": {
+        "i1": {
+          "name": "Trattoria sul lago",
+          "desc": "Pasta con vista lago"
+        },
+        "i2": {
+          "name": "Osteria Bella",
+          "desc": "Forno a legna, centro storico"
+        },
+        "i3": {
+          "name": "Ramen Bar",
+          "desc": "Veloce ed economico"
+        }
+      },
+      "votesOf": "{count, plural, one {# voto} other {# voti}}",
+      "ready": "Il vostro piano è deciso",
+      "place": "Trattoria sul lago",
+      "when": "Venerdì, ore 19",
+      "where": "Zurigo",
+      "coming": "4 vengono",
+      "task": "Lea prenota il tavolo",
+      "done": "Fatto"
+    },
+    "features": {
+      "title": "Tutto quello che vi serve, in un’app.",
+      "items": {
+        "denktmit": {
+          "title": "Pickeed pensa con te",
+          "text": "Data, luogo, chi porta cosa: Pickeed propone, tu confermi con un tocco. Meno avanti e indietro, più tempo insieme."
+        },
+        "zusagen": {
+          "title": "Gli amici dicono sì",
+          "text": "Ci sono, Forse o No – con un tocco. Votare, dividere i costi e chattare nello stesso piano. Gli amici partecipano con un link, anche senza account."
+        },
+        "circle": {
+          "title": "Chi è libero oggi?",
+          "text": "Nel Circle vedi chi ha tempo. Imposta il tuo stato e «libero oggi» diventa una serata improvvisata."
+        },
+        "entdecken": {
+          "title": "Scopri ed eventi",
+          "text": "Concerti, workshop e corse vicino a te. Con «Ci sono» sei dentro – i biglietti gratuiti arrivano nell’app con un codice QR."
+        },
+        "memories": {
+          "title": "Il tuo prossimo ricordo inizia qui.",
+          "text": "Dopo l’incontro condividete le foto nel piano – momenti che restano. Presto anche i video."
+        },
+        "qr": {
+          "title": "Hai Pickeed?",
+          "text": "Altro che scambiarsi i numeri: mostra il codice, scansiona, collegati – in due secondi."
+        }
+      }
+    },
+    "profile": {
+      "kicker": "Il tuo profilo",
+      "title": "Rendi il tuo profilo davvero tuo.",
+      "lead": "Colore, musica, momenti e i tuoi contatti – gli amici vedono a colpo d’occhio chi sei e quando hai tempo.",
+      "swipe": "Scorri di lato per vedere altro",
+      "items": {
+        "farbe": {
+          "title": "Il tuo colore",
+          "text": "Scegli un colore del profilo: anello, pulsanti e intestazione prendono la tua tonalità."
+        },
+        "song": {
+          "title": "Il tuo brano preferito",
+          "text": "Il tuo brano è nel profilo. Con un tocco gli amici ascoltano 30 secondi."
+        },
+        "sticker": {
+          "title": "Un brano per il post",
+          "text": "Aggiungi un brano alla tua foto – così il momento continua a suonare."
+        },
+        "status": {
+          "title": "Stato e In evidenza",
+          "text": "Mostra cosa succede oggi. Gli stati più belli restano nel profilo, in evidenza."
+        },
+        "frei": {
+          "title": "Hai tempo oggi?",
+          "text": "Un tocco mostra agli amici che oggi hai tempo – e vedi chi altro è libero."
+        },
+        "leute": {
+          "title": "I miei contatti",
+          "text": "I tuoi amici più stretti in cima al profilo. Tocca una foto per aprire il loro profilo."
+        }
+      }
+    },
+    "invitee": {
+      "title": "Ai tuoi amici basta il link",
+      "lead": "Ecco cosa vede Mia quando tocca il tuo link su WhatsApp.",
+      "p1": "Toccare il link – da WhatsApp, SMS o codice QR.",
+      "p2": "Scrivere il nome. Senza account, senza e-mail, senza password.",
+      "p3": "Partecipare subito: toccare «Va bene», votare, scrivere in chat.",
+      "invites": "Lea ti invita 👋",
+      "finding": "Data in via di definizione",
+      "name": "Come ti chiami?",
+      "nameValue": "Mia",
+      "join": "Ci sono",
+      "noAccount": "Gli altri vedono solo il tuo nome."
+    },
+    "examples": {
+      "title": "Per cosa i gruppi usano Pickeed",
+      "more": "Scopri di più",
+      "i1": {
+        "title": "Serata con gli amici",
+        "text": "Pasta, cinema o aperitivo: trovare una data, votare il posto, fatto."
+      },
+      "i2": {
+        "title": "Compleanno",
+        "text": "Invitare, condividere la lista dei desideri, fare un regalo insieme – anche a sorpresa."
+      },
+      "i3": {
+        "title": "Evento di team",
+        "text": "Una data per tutto il team, iscrizioni e compiti – senza ping-pong di e-mail."
+      }
+    },
+    "business": {
+      "kicker": "Per aziende, creator e associazioni",
+      "title": "Persone che vengono davvero.",
+      "text": "Un profilo con immagini di copertina, follower, valutazioni degli ospiti, biglietti gratuiti con codice QR, statistiche oneste e il tuo team – senza vendere dati.",
+      "cta": "Inizia gratis",
+      "companies": "Per aziende",
+      "creators": "Per creator",
+      "clubs": "Per associazioni"
+    },
+    "privacy": {
+      "title": "I tuoi dati restano tuoi.",
+      "text": "Niente banner, niente tracciamento, nessun dato venduto. Le chat le vedono solo le persone che ci sono.",
+      "items": {
+        "t1": "Gratis per te",
+        "t2": "Niente banner pubblicitari, niente tracciamento",
+        "t3": "Non vendiamo dati",
+        "t4": "Chat solo per il vostro gruppo",
+        "t5": "Server e dati in Svizzera"
+      },
+      "free": "Anche gli spazi Business e gli eventi pubblici sono gratis – l'abbonamento fornitore e la commissione di servizio sui biglietti sono gratis fino al {date}.",
+      "freeMore": "Vedi i prezzi"
+    },
+    "final": {
+      "title": "Il tuo prossimo piano ti aspetta.",
+      "text": "Nel browser, senza download. Gratis per te.",
+      "already": "Hai già un account?",
+      "signIn": "Accedi"
     }
   },
   "Footer": {
-    "copyright": "© {year} Pickeed"
+    "product": "Prodotto",
+    "pros": "Per i professionisti",
+    "help": "Aiuto e note legali",
+    "copy": "© {year} Pickeed. Gratis per uso privato.",
+    "links": {
+      "how": "Come funziona",
+      "discover": "Scopri",
+      "app": "Installa l'app",
+      "pricing": "Prezzi",
+      "events": "Guide all'organizzazione",
+      "travel": "Travel Guide",
+      "creators": "Per i creator",
+      "companies": "Per le aziende",
+      "clubs": "Associazioni",
+      "help": "Centro assistenza",
+      "contact": "Contatto",
+      "imprint": "Note legali",
+      "privacy": "Privacy",
+      "terms": "CG"
+    }
   },
   "NotFound": {
     "title": "Pagina non trovata",
@@ -112,5 +325,20 @@
       "date": "Ritrovo: {date}",
       "number": "Visualizzazioni: {value}"
     }
+  },
+  "Nav": {
+    "discover": "Scopri",
+    "app": "App",
+    "signIn": "Accedi",
+    "how": "Come funziona",
+    "creators": "Per i creator",
+    "companies": "Per le aziende",
+    "providers": "Per i fornitori",
+    "pricing": "Prezzi"
+  },
+  "Stores": {
+    "title": "Pickeed sul tuo telefono",
+    "appStore": "Scarica su App Store",
+    "googlePlay": "Disponibile su Google Play"
   }
 }
