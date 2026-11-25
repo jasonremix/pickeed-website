@@ -1,0 +1,149 @@
+/*
+ * Pickeed Design-Tokens – einzige Quelle für Farben, Typografie, Abstände, Radien, Schatten, Bewegung.
+ * Werte und Kontrastnachweise: docs/06-designkonzept.md, Entscheidung: docs/adr/0003-pink-als-primaerfarbe.md
+ * Präfix --pk-, damit keine Kollision mit Bibliotheken entsteht.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Markenfarbe «Pickeed Pink» */
+  --pk-pink-50: #fff0f6;
+  --pk-pink-100: #fce4ef;
+  --pk-pink-200: #f9c6dd;
+  --pk-pink-400: #ff4f9a;
+  --pk-pink-500: #e0157a;
+  --pk-pink-600: #c2185b;
+  --pk-pink-700: #9d174d;
+
+  /* Neutral (hell) */
+  --pk-bg: #ffffff;
+  --pk-surface: #f7f7f8;
+  --pk-surface-raised: #ffffff;
+  --pk-line: #e4e4e7;
+  --pk-text-1: #111114;
+  --pk-text-2: #52525b;
+  --pk-text-3: #71717a;
+
+  /* Rollen */
+  --pk-primary: var(--pk-pink-500);
+  --pk-primary-hover: var(--pk-pink-600);
+  --pk-primary-soft: var(--pk-pink-50);
+  --pk-primary-soft-line: var(--pk-pink-200);
+  --pk-on-primary: #ffffff;
+  --pk-link: var(--pk-pink-600);
+  --pk-focus: var(--pk-pink-500);
+  --pk-verified: var(--pk-pink-500);
+
+  /* Semantik */
+  --pk-success: #15803d;
+  --pk-warning: #b45309;
+  --pk-danger: #b91c1c;
+  --pk-danger-text: #b91c1c;
+  --pk-info: #1d4ed8;
+  --pk-on-semantic: #ffffff;
+
+  /* Verläufe */
+  --pk-gradient-bloom: linear-gradient(135deg, #ff4f9a 0%, #e0157a 55%, #c2185b 100%);
+  --pk-gradient-action: linear-gradient(135deg, #e0157a 0%, #c2185b 100%);
+  --pk-gradient-blush: linear-gradient(180deg, #fff0f6 0%, #ffffff 100%);
+  --pk-gradient-glow: radial-gradient(60% 60% at 50% 0%, rgba(255, 79, 154, 0.18), transparent);
+
+  /* Schatten */
+  --pk-shadow-1: 0 1px 2px rgba(17, 17, 20, 0.06);
+  --pk-shadow-2: 0 4px 16px rgba(17, 17, 20, 0.08);
+  --pk-shadow-pop: 0 12px 32px rgba(224, 21, 122, 0.16);
+
+  /* Radien */
+  --pk-radius-sm: 8px;
+  --pk-radius-md: 12px;
+  --pk-radius-lg: 16px;
+  --pk-radius-xl: 24px;
+
+  /* Typografie */
+  --pk-font-sans: "Inter Variable", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --pk-text-display: 2.5rem;
+  --pk-text-display-lh: 2.75rem;
+
+  /* Bewegung */
+  --pk-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --pk-ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+  --pk-motion-fast: 120ms;
+  --pk-motion-base: 200ms;
+  --pk-motion-slow: 320ms;
+
+  /* Glas-Navigation */
+  --pk-glass-bg: rgba(255, 255, 255, 0.72);
+  --pk-glass-blur: blur(24px) saturate(1.6);
+}
+
+/* Dunkelmodus – Werte für beide Wege identisch halten (explizite Wahl und Systemeinstellung). */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --pk-bg: #0f0f12;
+  --pk-surface: #1a1a1f;
+  --pk-surface-raised: #232329;
+  --pk-line: #2e2e35;
+  --pk-text-1: #f4f4f5;
+  --pk-text-2: #a1a1aa;
+  --pk-text-3: #8b8b94;
+  --pk-primary: var(--pk-pink-400);
+  --pk-primary-hover: #ff73b0;
+  --pk-primary-soft: rgba(255, 79, 154, 0.14);
+  --pk-primary-soft-line: rgba(255, 79, 154, 0.4);
+  --pk-on-primary: #0f0f12;
+  --pk-link: #ff73b0;
+  --pk-danger-text: #f87171;
+  --pk-focus: var(--pk-pink-400);
+  --pk-verified: var(--pk-pink-400);
+  --pk-gradient-action: linear-gradient(135deg, #ff4f9a 0%, #ff73b0 100%);
+  --pk-gradient-blush: linear-gradient(180deg, #1f1219 0%, #0f0f12 100%);
+  --pk-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --pk-shadow-2: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --pk-shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --pk-glass-bg: rgba(35, 35, 41, 0.72);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --pk-bg: #0f0f12;
+    --pk-surface: #1a1a1f;
+    --pk-surface-raised: #232329;
+    --pk-line: #2e2e35;
+    --pk-text-1: #f4f4f5;
+    --pk-text-2: #a1a1aa;
+    --pk-text-3: #8b8b94;
+    --pk-primary: var(--pk-pink-400);
+    --pk-primary-hover: #ff73b0;
+    --pk-primary-soft: rgba(255, 79, 154, 0.14);
+    --pk-primary-soft-line: rgba(255, 79, 154, 0.4);
+    --pk-on-primary: #0f0f12;
+    --pk-link: #ff73b0;
+    --pk-danger-text: #f87171;
+    --pk-focus: var(--pk-pink-400);
+    --pk-verified: var(--pk-pink-400);
+    --pk-gradient-action: linear-gradient(135deg, #ff4f9a 0%, #ff73b0 100%);
+    --pk-gradient-blush: linear-gradient(180deg, #1f1219 0%, #0f0f12 100%);
+    --pk-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --pk-shadow-2: 0 4px 16px rgba(0, 0, 0, 0.5);
+    --pk-shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.6);
+    --pk-glass-bg: rgba(35, 35, 41, 0.72);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --pk-text-display: 3.5rem;
+    --pk-text-display-lh: 3.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --pk-motion-fast: 1ms;
+    --pk-motion-base: 1ms;
+    --pk-motion-slow: 1ms;
+  }
+}

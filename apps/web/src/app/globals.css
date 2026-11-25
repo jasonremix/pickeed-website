@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@pickeed/ui/styles/tokens.css";
+@import "@pickeed/ui/styles/theme.css";
+
+/* Tailwind soll auch die Klassen der Komponentenbibliothek finden. */
+@source "../../../../packages/ui/src";
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--pk-bg);
+    color: var(--pk-text-1);
+    font-family: var(--pk-font-sans);
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--pk-pink-200);
+    color: var(--pk-text-1);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--pk-focus);
+    outline-offset: 2px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

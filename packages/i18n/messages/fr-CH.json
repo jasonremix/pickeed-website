@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "siteName": "Pickeed",
+    "title": "Pickeed – Le social pour la vraie vie",
+    "description": "Suis des personnes, des créateurs et tes lieux préférés – et planifiez ensemble ce que vous vivrez ensuite."
+  },
+  "Common": {
+    "skipToContent": "Aller au contenu",
+    "loading": "Chargement …",
+    "verified": "Vérifié",
+    "inDevelopment": "En développement"
+  },
+  "Header": {
+    "homeLink": "Pickeed – vers la page d’accueil"
+  },
+  "LanguageSwitcher": {
+    "label": "Langue"
+  },
+  "ThemeSwitcher": {
+    "label": "Affichage",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "Home": {
+    "kicker": "Le social pour la vraie vie",
+    "title": "Moins scroller. Vivre plus ensemble.",
+    "subtitle": "Suis des personnes, des créateurs et tes lieux préférés – et planifiez ensemble ce que vous vivrez ensuite.",
+    "statusBody": "La nouvelle plateforme est en cours de construction. Cette page montre l’état actuel du développement.",
+    "pillarsTitle": "Ce que Pickeed réunit",
+    "pillars": {
+      "discover": {
+        "title": "Découvrir",
+        "body": "Vois ce que tes proches, les créateurs et les lieux autour de toi ont prévu."
+      },
+      "plan": {
+        "title": "Planifier ensemble",
+        "body": "Trouver une date, choisir un lieu, partager les frais – tout au même endroit plutôt que dans dix discussions."
+      },
+      "share": {
+        "title": "Vivre et partager",
+        "body": "Après la rencontre, les photos et les souvenirs restent dans votre groupe."
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Pickeed"
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "body": "Cette page n’existe pas ou n’existe plus.",
+    "back": "Vers la page d’accueil"
+  },
+  "Design": {
+    "metaTitle": "Système de design",
+    "title": "Système de design",
+    "intro": "Référence interne des composants Pickeed. Cette page n’est pas liée publiquement et n’est pas indexée.",
+    "sections": {
+      "colors": "Couleurs",
+      "typography": "Typographie",
+      "buttons": "Boutons",
+      "forms": "Formulaires",
+      "cards": "Cartes",
+      "people": "Avatars et badges",
+      "feedback": "Chargement",
+      "formats": "Formats"
+    },
+    "colorNames": {
+      "primary": "Primaire",
+      "surface": "Surface",
+      "text": "Texte",
+      "success": "Succès",
+      "warning": "Avertissement",
+      "danger": "Erreur",
+      "bloom": "Dégradé Bloom",
+      "action": "Dégradé Action"
+    },
+    "typeSample": "Vivre plus ensemble",
+    "bodySample": "Trouver une date, choisir un lieu et partager les frais – sans allers-retours.",
+    "buttons": {
+      "primary": "J’y serai",
+      "secondary": "Peut-être",
+      "tertiary": "Voir les détails",
+      "danger": "Supprimer le plan",
+      "loading": "Enregistrement",
+      "disabled": "Indisponible"
+    },
+    "form": {
+      "emailLabel": "E-mail",
+      "emailHint": "Nous t’envoyons un code à 6 chiffres.",
+      "emailPlaceholder": "nom@exemple.ch",
+      "nameLabel": "Nom",
+      "nameError": "Merci d’indiquer ton nom."
+    },
+    "card": {
+      "title": "Soirée pâtes chez Lea",
+      "meta": "{count, plural, one {# participation confirmée} other {# participations confirmées}}"
+    },
+    "badges": {
+      "new": "Nouveau",
+      "confirmed": "Confirmé",
+      "draft": "Brouillon",
+      "full": "Complet"
+    },
+    "people": {
+      "person1": "Lea Muster",
+      "person2": "Noah Keller",
+      "page": "Bergquell"
+    },
+    "formats": {
+      "money": "Participation par personne : {amount}",
+      "date": "Rendez-vous : {date}",
+      "number": "Vues : {value}"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "siteName": "Pickeed",
+    "title": "Pickeed – Il social per la vita reale",
+    "description": "Segui persone, creator e i tuoi luoghi preferiti – e pianificate insieme cosa vivrete dopo."
+  },
+  "Common": {
+    "skipToContent": "Vai al contenuto",
+    "loading": "Caricamento …",
+    "verified": "Verificato",
+    "inDevelopment": "In sviluppo"
+  },
+  "Header": {
+    "homeLink": "Pickeed – alla pagina iniziale"
+  },
+  "LanguageSwitcher": {
+    "label": "Lingua"
+  },
+  "ThemeSwitcher": {
+    "label": "Aspetto",
+    "system": "Sistema",
+    "light": "Chiaro",
+    "dark": "Scuro"
+  },
+  "Home": {
+    "kicker": "Il social per la vita reale",
+    "title": "Meno scroll. Più momenti insieme.",
+    "subtitle": "Segui persone, creator e i tuoi luoghi preferiti – e pianificate insieme cosa vivrete dopo.",
+    "statusBody": "La nuova piattaforma è in costruzione. Questa pagina mostra lo stato attuale dello sviluppo.",
+    "pillarsTitle": "Cosa unisce Pickeed",
+    "pillars": {
+      "discover": {
+        "title": "Scoprire",
+        "body": "Guarda cosa hanno in programma i tuoi amici, i creator e i locali vicino a te."
+      },
+      "plan": {
+        "title": "Pianificare insieme",
+        "body": "Trovare una data, scegliere il posto, dividere le spese – tutto in un unico posto invece che in dieci chat."
+      },
+      "share": {
+        "title": "Vivere e condividere",
+        "body": "Dopo l’incontro, foto e ricordi restano al vostro gruppo."
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Pickeed"
+  },
+  "NotFound": {
+    "title": "Pagina non trovata",
+    "body": "Questa pagina non esiste o non esiste più.",
+    "back": "Alla pagina iniziale"
+  },
+  "Design": {
+    "metaTitle": "Sistema di design",
+    "title": "Sistema di design",
+    "intro": "Riferimento interno dei componenti Pickeed. Questa pagina non è collegata pubblicamente e non viene indicizzata.",
+    "sections": {
+      "colors": "Colori",
+      "typography": "Tipografia",
+      "buttons": "Pulsanti",
+      "forms": "Moduli",
+      "cards": "Schede",
+      "people": "Avatar e badge",
+      "feedback": "Caricamento",
+      "formats": "Formati"
+    },
+    "colorNames": {
+      "primary": "Primario",
+      "surface": "Superficie",
+      "text": "Testo",
+      "success": "Successo",
+      "warning": "Avviso",
+      "danger": "Errore",
+      "bloom": "Sfumatura Bloom",
+      "action": "Sfumatura Azione"
+    },
+    "typeSample": "Più momenti insieme",
+    "bodySample": "Trovare una data, scegliere il posto e dividere le spese – senza tira e molla.",
+    "buttons": {
+      "primary": "Ci sono",
+      "secondary": "Forse",
+      "tertiary": "Vedi dettagli",
+      "danger": "Elimina piano",
+      "loading": "Salvataggio",
+      "disabled": "Non disponibile"
+    },
+    "form": {
+      "emailLabel": "E-mail",
+      "emailHint": "Ti inviamo un codice di 6 cifre.",
+      "emailPlaceholder": "nome@esempio.ch",
+      "nameLabel": "Nome",
+      "nameError": "Inserisci il tuo nome."
+    },
+    "card": {
+      "title": "Serata pasta da Lea",
+      "meta": "{count, plural, one {# adesione} other {# adesioni}}"
+    },
+    "badges": {
+      "new": "Nuovo",
+      "confirmed": "Confermato",
+      "draft": "Bozza",
+      "full": "Esaurito"
+    },
+    "people": {
+      "person1": "Lea Muster",
+      "person2": "Noah Keller",
+      "page": "Bergquell"
+    },
+    "formats": {
+      "money": "Contributo a persona: {amount}",
+      "date": "Ritrovo: {date}",
+      "number": "Visualizzazioni: {value}"
+    }
+  }
+}
